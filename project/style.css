@@ -127,11 +127,12 @@ margin-bottom: 30px;}
         font-weight: 400;
 }
 #badge {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         position: absolute;
-        left: 450px;
+        left: 470px;
         justify-content: center;
+        top: 30;
 
 }
         /* Flower & Plants Lover  section close*/
