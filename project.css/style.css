@@ -490,7 +490,7 @@ justify-items: flex-start;
 
 
 /* Small Devices: ≥576px */
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   body {
     margin: 1rem;
     justify-content: center;
@@ -518,6 +518,7 @@ justify-items: flex-start;
 
   .product-section {
     grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 
   .flower-lover {
