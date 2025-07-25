@@ -6,50 +6,10 @@
                 margin: 1rem 2rem;
         }
 
-header{
 
-background-color: white;
-justify-content: space-between;
-display: flex;
-align-items: center;
-border-radius: 12px;
-padding: 1 rem 1.5rem;
-margin: 1rem;
-}
 
-.logo-section {
 
-display: flex;
-align-items: center;
-margin: 1rem;
-}
 
-.cart-icon{
-width: 1.5rem;
-height: 1.5rem;
-
-}
-
-.cart-link{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-nav{
-justify-content: space-between;
-display: flex;
-align-items: center;
-gap: 2rem;
-margin-left: 2rem;
-margin-right: 2rem;
-
-}
-
-.home-link{
-        font-weight: 500;
-}
         /* header section close */
 
         /* always fresh flower section start*/
@@ -495,7 +455,7 @@ justify-items: flex-start;
 
 
 /* Small Devices: ≥576px */
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 576px) {
   body {
     margin: 1rem;
     justify-content: center;
@@ -510,7 +470,7 @@ justify-items: flex-start;
   }
  
 .home-link{
-        display: none;
+       /* display: none; */
 }
   .always-fresh-section {
     flex-direction: column;
@@ -522,7 +482,7 @@ justify-items: flex-start;
   }
 
   .product-section {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
 
@@ -531,7 +491,7 @@ justify-items: flex-start;
   }
 
   .list-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 10px;
   }
 
@@ -568,7 +528,7 @@ justify-items: flex-start;
   }
 
   .join-us-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .input {
